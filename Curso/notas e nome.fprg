@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="502231980"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-15 11:14:28 "/>
+        <attribute name="created" value="NTAyMjMxOTgwO0c1WU5NTDgzRTsyMDIxLTExLTE1OyIxMDozNjozNSAiOzIyNjg="/>
+        <attribute name="edited" value="NTAyMjMxOTgwO0c1WU5NTDgzRTsyMDIxLTExLTE1OyIxMToxNDoyOCAiOzE7MjM3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, idade, soma" type="Real" array="False" size=""/>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome e Sobrenome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Ol&#225;, &quot; &amp; nome" newline="True"/>
+            <output expression="&quot;Digite a primeira nota:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a segunda nota:&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a terceira nota:&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite a quarta nota:&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="soma" expression="(nota1+nota2+nota3+nota4)"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="nome &#13;&#10;&amp;&quot; A soma das suas notas &#233;: &quot; &amp;soma&#13;&#10;&amp;&quot; Sua m&#233;dia &#233;: &quot; &amp;media&#13;&#10;&amp;&quot; Parab&#233;ns, voc&#234; passou!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nome &#13;&#10;&amp;&quot; A soma das suas notas &#233;: &quot; &amp;soma&#13;&#10;&amp;&quot; Sua m&#233;dia &#233;: &quot; &amp;media&#13;&#10;&amp;&quot; Infelizmente, voc&#234; n&#227;o passou&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
