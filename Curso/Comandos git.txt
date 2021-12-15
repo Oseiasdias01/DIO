@@ -1,0 +1,13 @@
+Comandos
+Cd .. //volta a pasta
+Cd “nome da pasta” // entra na pasta, tab ajuda a completar o nome
+Git status // mostra os status dos arquivos, (se estão prontos para subir ou não)
+Git add . ou git add -A // sobe todos os arquivos  
+git commit -m " nome da etapa" // nome da etapa que vai subir o para o github
+git push origin main // subir um arquivo para o github
+ls // para lista as pastas
+pwp // mostra todo o caminho onde vc está
+git clone link do repositório //baixar um repositório
+
+git clone https://github.com/Oseiasdias01/dio-desafio-github-primeiro-repositorio.git
+
